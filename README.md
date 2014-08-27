@@ -28,3 +28,24 @@ Give prefix to keys:
 storage.prefix = "Prefix";
 ```
 this is optional but can be handy when you are using this service in multiple controllers
+
+<b>Store Value</b>
+```javascript
+storage.set("Key","Value to Store");
+```
+<b>Get Value</b>
+```javascript
+storage.set("Key");
+```
+<b>Remove Value</b>
+```javascript
+storage.remove("Key");
+```
+<b>Get Value</b>
+```javascript
+storage.set("Key");
+```
+<b>Clear Everything</b>
+```javascript
+storage.removeAll();
+```
