@@ -3,6 +3,10 @@ localStorageService
 
 localStorageService is an AngularJS based service module which can be used to store and retrieve data from local storage of browser.
 
+<h1>Demo</h1>
+<p>
+<a href="http://plnkr.co/edit/WzInl1IdgJlP0psuod2V?p=preview" target="_blank">Demo</a>
+</p>
 <h1>Requirements</h1>
 <p>
 AngularJS verison 1.0.5+
@@ -22,7 +26,7 @@ Create instance of service in Controller or js file:
 var storage = localStorageService.create();
 ```
 
-Give prefix to keys:
+Give prefix to keys (optional):
 
 ```javascript
 storage.prefix = "Prefix";
