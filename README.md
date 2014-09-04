@@ -39,15 +39,11 @@ storage.set("Key","Value to Store");
 ```
 <b>Get Value</b>
 ```javascript
-storage.set("Key");
+storage.get("Key");
 ```
 <b>Remove Value</b>
 ```javascript
 storage.remove("Key");
-```
-<b>Get Value</b>
-```javascript
-storage.set("Key");
 ```
 <b>Clear Everything</b>
 ```javascript
